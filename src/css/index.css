@@ -31,8 +31,10 @@ a{
     color: white;
     text-shadow: 1px 1.5px #008060;
 }
+
+/* MAKE MY OWN LOGO*/
 .logo{
-    background-image: url("../images/logo.png");
+    background-image: url("");
     background-size: cover;
     width: 200px;
     height: 100px;
@@ -87,3 +89,39 @@ a{
     background: #cc0052;
     border: none;
 }
+.second-block{
+    background: white;
+    max-width: 100%;
+    height: 450px;
+}
+.second-block-content{
+    display: flex;
+    justify-content: space-around;
+}
+.first, .second, .third{
+    max-width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Glegoo', serif;
+    line-height: 20px;
+    color: #4d4d4d;
+    margin-top: 75px;
+}
+.second-block-content h2{
+    color: #4d4d4d;
+    text-shadow: none;
+    font-family: 'Glegoo', serif;
+}
+.second-block-content p{
+   text-align: justify;
+}
+.icon{
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+
