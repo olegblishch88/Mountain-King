@@ -3,11 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    max-width: 100%;
+}
+.first-block, header, .second-block, .third-block, .fourth-block, .fifth-block, .sixth-block, .seventh-block{
+    width: 100%;
+}
 .first-block{
     background-image: url("../images/mountain.jpg");
     background-size: cover;
     background-position: center;
-    max-width: 100%;
     height: 720px;
 }
 header{
@@ -31,19 +36,9 @@ a{
     color: white;
     text-shadow: 1px 1.5px #008060;
 }
-
-/* MAKE MY OWN LOGO*/
-.logo{
-    background-image: url("");
-    background-size: cover;
-    width: 200px;
-    height: 100px;
-    float: right;
-    margin-top: -100px;
-}
 .first-block-content{
-    max-width: 100%;
     height: 400px;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -51,9 +46,13 @@ a{
     margin-top: 90px;
 }
 .first-block-content h1{
+    width: 70%;
     font-size: 80px;
+    text-align: center;
 }
 .first-block-content h2{
+    width: 40%;
+    text-align: center;
     font-size: 45px;
 }
 .first-block-content h1, h2{
@@ -64,7 +63,7 @@ a{
 .first-block-content p{
     color: white;
     text-align: center;
-    width: 600px;
+    width: 40%;
     margin-top: 40px;
     font-size: 15px;
     line-height: 30px;
@@ -72,7 +71,9 @@ a{
     text-shadow: 1px 1px black;
 }
 .buttons{
+    width: 40%;
     margin-top: 50px;
+    text-align: center;
 }
 .left, .right{
     width: 150px;
@@ -91,15 +92,15 @@ a{
 }
 .second-block{
     background: white;
-    max-width: 100%;
     height: 450px;
 }
 .second-block-content{
+    width: 100%;
     display: flex;
     justify-content: space-around;
 }
 .first, .second, .third{
-    max-width: 400px;
+    width: 27%;
     height: 300px;
     display: flex;
     justify-content: space-around;
@@ -124,7 +125,6 @@ a{
     margin: 0 auto;
 }
 .third-block{
-    max-width: 100%;
     height: 600px;
     background-image: url("../images/photo.jpg");
     background-size: cover;
@@ -169,11 +169,11 @@ a{
     text-align: center;   
 }
 .fourth-block{
-    max-width: 100%;
     height: 600px;
     font-family: 'Glegoo', serif;
 }
 .fourth-block-content{
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -182,7 +182,7 @@ a{
     margin-top: 70px;
 }
 .left-side{
-    width: 800px;
+    width: 45%;
     height: 500px;
     display: flex;
     justify-content: space-evenly;
@@ -197,7 +197,7 @@ a{
 }
 .right-side{
     background-image: url("../images/girl_bike.jpg");
-    width: 450px;
+    width: 40%;
     height: 400px;
     background-size: cover;
 }
@@ -212,7 +212,6 @@ a{
 }
 .fifth-block{
     background-image: url("../images/camera.jpg");
-    max-width: 100%;
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -230,6 +229,7 @@ a{
     flex-direction: column;
 }
 .fifth-block-content h2{
+    width: 400px;
     font-family: 'Glegoo', serif;
     font-style: italic;
     width: 500px;
@@ -243,12 +243,12 @@ a{
     line-height: 25px;
 }
 .small{
+    width: 100%;
     font-size: 13px;
     text-align: start;
 }
 .sixth-block{
     background: white;
-    max-width: 100%;
     height: 200px;
     display: flex;
     justify-content: space-around;
@@ -258,13 +258,12 @@ a{
     width: 200px;
 }
 .seventh-block{
-    max-width: 100%;
     height: 400px;
     background-image: url("../images/blue.jpg");
     background-size: cover;
 }
 .seventh-block-content{
-    width: 750px;
+    width: 50%;
     height: 350px;
     display: flex;
     justify-content: space-evenly;
@@ -275,6 +274,7 @@ a{
     margin-left: 200px;
 }
 .seventh-block-content h1{
+    width: 700px;
     line-height: 35px;
     margin-top: 40px;
 }
@@ -293,4 +293,5 @@ a{
     font-family: 'Glegoo', serif;
     font-size: 20px;
     background: #cc0052;
+    color: white;
 }
